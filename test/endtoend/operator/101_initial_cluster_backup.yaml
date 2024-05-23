@@ -15,13 +15,13 @@ spec:
           path: /backup
           type: Directory
   images:
-    vtctld: vitess/lite:v20.0.0-rc2
-    vtgate: vitess/lite:v20.0.0-rc2
-    vttablet: vitess/lite:v20.0.0-rc2
-    vtorc: vitess/lite:v20.0.0-rc2
-    vtbackup: vitess/lite:v20.0.0-rc2
+    vtctld: vitess/lite:v20.0.0-rc3
+    vtgate: vitess/lite:v20.0.0-rc3
+    vttablet: vitess/lite:v20.0.0-rc3
+    vtorc: vitess/lite:v20.0.0-rc3
+    vtbackup: vitess/lite:v20.0.0-rc3
     mysqld:
-      mysql56Compatible: vitess/lite:v20.0.0-rc2
+      mysql56Compatible: vitess/lite:v20.0.0-rc3
     mysqldExporter: prom/mysqld-exporter:v0.11.0
   cells:
   - name: zone1
